@@ -1,0 +1,22 @@
+.addform{
+    font-size: 40px;
+}
+
+.addform:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.output{
+    font-size: 34px;
+}
+
+.myform{
+    background-color:#ace5ee;
+    border-radius: 15px;
+}
+
+.link{
+    font-size: 34px;
+    color: #8a2be2;
+}

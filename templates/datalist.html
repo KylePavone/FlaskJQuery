@@ -1,0 +1,16 @@
+{% extends 'index.html' %}
+
+
+{% block content %}
+<div class="container mt-5 output">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 offset-md-4">
+            {% for out in output %}
+                <div class="offset-md-1">{{ out }}</div>
+                <hr>
+            {% endfor %}
+            <a class="offset-md-3 link" href="{{ url_for('index') }}">Back</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
